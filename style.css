@@ -590,3 +590,33 @@ body{
     display: flex;
     align-items: center;
 }
+
+@media(max-width:1024px){
+    .oliva__img{
+        flex: 1 1 33.333%;
+    }
+
+    .oliva__body{
+        flex: 1 1 66.666%;
+    }
+
+    .boriosa__img{
+        flex: 1 1 33.333%;
+    }
+
+    .boriosa__body{
+        flex: 1 1 66.666%;
+    }
+
+    .retro__body{
+        flex: 1 1 70%;
+    }
+
+    .retro__img{
+        flex: 1 1 15%;
+    }
+
+    .retro__images{
+        flex: 1 1 15%;
+    }
+}

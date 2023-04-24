@@ -100,7 +100,7 @@ body{
 }
 
 .oliva__img{
-    background: url('../img/bg/rectangle_1_54.png') 0 0 no-repeat;
+    background: url('./img/bg/rectangle_1_54.png') 0 0 no-repeat;
 }
 
 .card__img {
@@ -209,7 +209,7 @@ body{
 .boriosa__saddle {
 }
 .boriosa__img {
-    background: url('../img/boriosa/rectangle_1_copy_5_61.png') 0 0 no-repeat;
+    background: url('./img/boriosa/rectangle_1_copy_5_61.png') 0 0 no-repeat;
     background-size: cover;
 }
 .boriosa__icon {
@@ -226,7 +226,7 @@ body{
     flex: 1 1 33.333%;
     display: flex;
     position: relative;
-    background: url('../img/retro/rectangle_1_copy_6_63.png') 0 0 no-repeat;
+    background: url('./img/retro/rectangle_1_copy_6_63.png') 0 0 no-repeat;
     background-size: cover;
 }
 .retro__row {
@@ -246,7 +246,7 @@ body{
 .retro__images {
     display: flex;
     flex: 1 1 33.333%;
-    background: url('../img/retro/rectangle_1_copy_6_64.png') 0 0 no-repeat;
+    background: url('./img/retro/rectangle_1_copy_6_64.png') 0 0 no-repeat;
     background-size: cover;
 }
 
@@ -331,20 +331,20 @@ body{
 .gallery__top-left-image {
     display: flex;
     flex: 1 1 50%;
-    background: url('../img/gallery/rectangle_3_118.png') 0 0 no-repeat;
+    background: url('./img/gallery/rectangle_3_118.png') 0 0 no-repeat;
     background-size: cover;
 }
 .gallery__top-right-image {
     display: flex;
     flex: 1 1 50%;
-    background: url('../img/gallery/rectangle_3_copy_137.png') 0 0 no-repeat;
+    background: url('./img/gallery/rectangle_3_copy_137.png') 0 0 no-repeat;
     background-size: cover;
 }
 .gallery__bottom-image {
     display: flex;
     flex-direction: column;
     flex: 1 1 50%;
-    background: url('../img/gallery/rectangle_3_copy_3_139.png') 0 0 no-repeat;
+    background: url('./img/gallery/rectangle_3_copy_3_139.png') 0 0 no-repeat;
     background-size: cover;
 }
 .gallery__center {
@@ -356,7 +356,7 @@ body{
     height: 100%;
     display: flex;
     flex: 1 1 50%;
-    background: url('../img/gallery/rectangle_1_copy_8_140.png') 0 0 no-repeat;
+    background: url('./img/gallery/rectangle_1_copy_8_140.png') 0 0 no-repeat;
     background-size: cover;
     z-index: 2;
 }
@@ -381,7 +381,7 @@ body{
 .gallery__2-image {
     display: flex;
     flex: 1 1 50%;
-    background: url('../img/gallery/rectangle_1_copy_7_136.png') 0 0 no-repeat;
+    background: url('./img/gallery/rectangle_1_copy_7_136.png') 0 0 no-repeat;
     background-size: cover;
 }
 .gallery__end {
@@ -433,13 +433,13 @@ body{
 .gallery__bottom-left-image {
     display: flex;
     flex: 1 1 50%;
-    background: url('../img/gallery/rectangle_3_copy_6_143.png') 0 0 no-repeat;
+    background: url('./img/gallery/rectangle_3_copy_6_143.png') 0 0 no-repeat;
     background-size: cover;
 }
 .gallery__bottom-right-image {
     display: flex;
     flex: 1 1 50%;
-    background: url('../img/gallery/rectangle_3_copy_7_144.png') 0 0 no-repeat;
+    background: url('./img/gallery/rectangle_3_copy_7_144.png') 0 0 no-repeat;
     background-size: cover;
 }
 

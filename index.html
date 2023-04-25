@@ -16,20 +16,35 @@
         <div class="burger">
             <div class="content">
                 <ul class="burger__list">
-                    <li>About us</li>
-                    <li>.</li>
-                    <li>Work</li>
-                    <li><img class="burger__image" src="img/burger/logo_52.png" alt=""></li>
-                    <li>Shop</li>
-                    <li>.</li>
-                    <li>Contact</li>
+                    <li><a class="menu__link" data-goto=".page__section_1" href="#">About us</a></li>
+                    <li><a href="#">.</a></li>
+                    <li><a class="menu__link" data-goto=".page__section_2" href="#">Work</a></li>
+                    <li><a href="#"><img class="burger__image" src="img/burger/logo_52.png" alt=""></a></li>
+                    <li><a class="menu__link" data-goto=".page__section_3" href="#">Shop</a></li>
+                    <li><a href="#">.</a></li>
+                    <li><a class="menu__link" data-goto=".page__section_4" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">.</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">.</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">.</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
         <div class="header">
             <img src="img/header/bg_2.png" alt="">
         </div>
-        <div class="vintage">
+        <div class="vintage page__section_1">
             <div class="contents">
                 <div class="vintage__image"><img src="img/vintage/icon_126.png" alt=""></div>
                 <div class="vintage__header">A NEW GENERATION OF VINTAGE BIKE</div>
@@ -38,9 +53,10 @@
                 </div>
             </div>
         </div>
-        <div class="oliva">
+        <div class="oliva page__section_2">
             <div class="oliva__img card__img">
                 <div class="oliva__icon card__icon"><img src="img/icon/logo_76.png" alt=""></div>
+                <div class="card__bg-img"><img src="/img/bg/rectangle_1_54.png" alt=""></div>
             </div>
             <div class="oliva__rov">
                 <div class="oliva__body card__body">
@@ -62,11 +78,13 @@
             </div>
             <div class="boriosa__img card__img">
                 <div class="boriosa__icon card__icon"><img src="img/boriosa/logo_83.png" alt=""></div>
+                <div class="card__bg-img"><img src="/img/boriosa/rectangle_1_copy_5_61.png" alt=""></div>
             </div>
         </div>
         <div class="retro">
                 <div class="retro__img">
                     <div class="retro__icon card__icon"><img src="img/retro/logo_114.png" alt=""></div>
+                    <div class="card__bg-img"><img src="/img/retro/rectangle_1_copy_6_63.png" alt=""></div>
                 </div>
             <div class="retro__row">
                 <div class="retro__body card__body">
@@ -76,7 +94,7 @@
                 </div>
                 <div class="card__saddle retro__saddle"><img src="img/retro/rectangle_1_copy_6_65.png" alt=""></div>
             </div>
-            <div class="retro__images"></div>
+            <div class="retro__images"><div class="card__bg-img"><img src="/img/retro/rectangle_1_copy_6_64.png" alt=""></div></div>
         </div>
         <div class="messenges">
             <div class="messenges__rov">
@@ -95,32 +113,33 @@
         <div class="gallery">
             <div class="gallery__start">
                 <div class="gallery__start-top">
-                    <div class="gallery__top-left-image"></div>
-                    <div class="gallery__top-right-image"></div>
+                    <div class="gallery__top-left-image"><div class="card__bg-img"><img src="img/gallery/rectangle_3_118.png" alt=""></div></div>
+                    <div class="gallery__top-right-image"><div class="card__bg-img"><img src="img/gallery/rectangle_3_copy_137.png" alt=""></div></div>
                 </div>
-                <div class="gallery__bottom-image"></div>
+                <div class="gallery__bottom-image"><div class="card__bg-img"><img src="img/gallery/rectangle_3_copy_3_139.png" alt=""></div></div>
             </div>
             <div class="gallery__center">
-                <div class="gallery__1-image"><div class="gallery__block"></div></div>
-                <div class="gallery__2-image"></div>
+                <div class="gallery__1-image"><div class="card__bg-img"><img src="img/gallery/rectangle_1_copy_8_140.png" alt=""></div></div>
+                <div class="gallery__2-image"><div class="card__bg-img"><img src="img/gallery/rectangle_1_copy_7_136.png" alt=""></div></div>
             </div>
             <div class="gallery__end">
                 <div class="gallery__top">
                     <div class="gallery__top-img card__icon"><img src="img/gallery/icon/shape_13_169.png" alt=""></div>
                     <div class="gallery__top-img-title"><p>shop now</p></div>
+                    <div class="card__bg-img"><img src="/img/gallery/rectangle_3_copy_4_141.png" alt=""></div>
                 </div>
                 <div class="gallery__bottom-img">
-                    <div class="gallery__bottom-left-image"></div>
-                    <div class="gallery__bottom-right-image"></div>
+                    <div class="gallery__bottom-left-image"><div class="card__bg-img"><img src="img/gallery/rectangle_3_copy_6_143.png" alt=""></div></div>
+                    <div class="gallery__bottom-right-image"><div class="card__bg-img"><img src="img/gallery/rectangle_3_copy_7_144.png" alt=""></div></div>
                 </div>
             </div>
         </div>
-        <div class="shop">
+        <div class="shop page__section_3">
             <div class="shop__row">
                 <button class="shop__button">DISCOVER THE SHOP</button>
             </div>
         </div>
-        <div class="form">
+        <div class="form page__section_4">
             <div class="content">
                 <div class="form__row">
                     <div class="form__image"><img src="img/burger/logo_52.png" alt=""></div>
@@ -157,5 +176,6 @@
             </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

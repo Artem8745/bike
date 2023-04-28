@@ -29,6 +29,13 @@ body{
     max-width: 620px;
     margin: 0 auto;
 }
+
+.burger{
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(255,255,255, 0.8);
+}
+
 .burger__list {
     width: 620px;
     display: flex;
@@ -45,7 +52,15 @@ body{
     color: #4d4959;
 }
 
+.menu__link{
+    color: #000;
+}
+
 .burger__image {
+}
+
+.hamburger-menu{
+    z-index: 10;
 }
 
 .header{
@@ -53,7 +68,6 @@ body{
 }
 
 .header img{
-    background-color: #eaebf2;
     width: 100%;
 }
 
@@ -99,7 +113,12 @@ body{
     display: flex;
 }
 
-.card__bg-img img{
+.card__bg-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card__bg-img img {
     display: flex;
     flex: 1 1 auto;
     width: 100%;
@@ -182,10 +201,17 @@ body{
     right: 0;
 }
 
+.card__saddle{
+    width: 100%;
+    height: 100%;
+}
+
 .card__saddle img {
     width: 100%;
+    height: 100%;
     display: flex;
     flex: 1 1 auto;
+    object-fit: cover;
 }
 
 
@@ -719,7 +745,6 @@ body{
         display: block;
         padding: 12px 24px;
         color: #333;
-        font-family: 'Roboto', sans-serif;
         font-size: 20px;
         font-weight: 600;
         text-decoration: none;
